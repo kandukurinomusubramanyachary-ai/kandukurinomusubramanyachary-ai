@@ -1,0 +1,23 @@
+<svg width="580" height="250" viewBox="0 0 580 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="accent" x1="44" y1="0" x2="536" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FB7185"/><stop offset="0.55" stop-color="#C084FC"/><stop offset="1" stop-color="#818CF8"/>
+  </linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="580" y2="250" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#11131A"/><stop offset="1" stop-color="#0D1117"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="578" height="248" rx="24" fill="url(#bg)" stroke="#30363D"/>
+<rect x="28" y="28" width="48" height="48" rx="14" fill="#FB7185" fill-opacity="0.12" stroke="#FB7185" stroke-opacity="0.28"/>
+<path d="M52 41C44 47 43 56 49 62C55 68 64 65 67 58C70 50 63 42 52 41Z" fill="url(#accent)"/>
+<text x="92" y="48" fill="#8B949E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2">BUILDING NOW</text>
+<text x="92" y="72" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">Bloom</text>
+<rect x="446" y="31" width="104" height="30" rx="15" fill="#C084FC" fill-opacity="0.10" stroke="#C084FC" stroke-opacity="0.22"/>
+<text x="469" y="51" fill="#D8B4FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">V3 ACTIVE</text>
+<rect x="28" y="94" width="524" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="28" y="126" fill="#D5D9E2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15.5" font-weight="500">AI-native wellbeing companion for cycle, symptoms, food,</text>
+<text x="28" y="149" fill="#D5D9E2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15.5" font-weight="500">movement and strength — powered by Meg.</text>
+<circle cx="34" cy="181" r="3" fill="#FB7185"/><text x="47" y="186" fill="#A7B0C0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5">Cross-platform product: Android · iOS · Web</text>
+<circle cx="34" cy="207" r="3" fill="#C084FC"/><text x="47" y="212" fill="#A7B0C0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5">Meg V2 · privacy-first data · pose-based Strength</text>
+<text x="28" y="237" fill="#D8B4FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">React Native · Expo · Firebase · Express · MediaPipe</text>
+</svg>
