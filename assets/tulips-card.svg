@@ -1,0 +1,23 @@
+<svg width="580" height="250" viewBox="0 0 580 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="accent" x1="44" y1="0" x2="536" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C084FC"/><stop offset="0.52" stop-color="#818CF8"/><stop offset="1" stop-color="#60A5FA"/>
+  </linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="580" y2="250" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#11131A"/><stop offset="1" stop-color="#0D1117"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="578" height="248" rx="24" fill="url(#bg)" stroke="#30363D"/>
+<rect x="28" y="28" width="48" height="48" rx="14" fill="#818CF8" fill-opacity="0.12" stroke="#818CF8" stroke-opacity="0.28"/>
+<circle cx="45" cy="49" r="5" fill="#C084FC"/><circle cx="58" cy="43" r="4" fill="#818CF8"/><circle cx="62" cy="59" r="5" fill="#60A5FA"/><path d="M46 52L58 45M49 53L59 57" stroke="#D8B4FE" stroke-width="2" stroke-linecap="round"/>
+<text x="92" y="48" fill="#8B949E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2">RESEARCH + INFRA</text>
+<text x="92" y="72" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">Tulips AI</text>
+<rect x="424" y="31" width="126" height="30" rx="15" fill="#60A5FA" fill-opacity="0.09" stroke="#60A5FA" stroke-opacity="0.22"/>
+<text x="445" y="51" fill="#93C5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">R&amp;D DIRECTION</text>
+<rect x="28" y="94" width="524" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="28" y="126" fill="#D5D9E2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15.5" font-weight="500">Building toward the data and environment layer behind</text>
+<text x="28" y="149" fill="#D5D9E2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15.5" font-weight="500">advanced AI systems.</text>
+<circle cx="34" cy="181" r="3" fill="#C084FC"/><text x="47" y="186" fill="#A7B0C0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5">RL environments · synthetic data · evaluation</text>
+<circle cx="34" cy="207" r="3" fill="#60A5FA"/><text x="47" y="212" fill="#A7B0C0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5">First vertical: high-value cybersecurity environments</text>
+<text x="28" y="237" fill="#93C5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">Python · RL · Data Generation · Evaluation · Infrastructure</text>
+</svg>
