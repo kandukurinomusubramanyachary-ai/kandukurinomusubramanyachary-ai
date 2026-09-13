@@ -1,0 +1,29 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar1" x1="280" y1="0" x2="1030" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E8B"/><stop offset="0.5" stop-color="#C084FC"/><stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="330" rx="28" fill="#0D1117"/>
+  <rect x="1" y="1" width="1198" height="328" rx="27" stroke="#30363D"/>
+  <text x="56" y="62" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Research radar</text>
+  <text x="56" y="91" fill="#8B949E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">What I’m actively exploring and building toward</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" fill="#C9D1D9">
+    <text x="56" y="145">RL environments</text>
+    <text x="56" y="194">Synthetic data</text>
+    <text x="56" y="243">AI evaluation</text>
+    <text x="56" y="292">Multimodal systems</text>
+  </g>
+
+  <g>
+    <rect x="280" y="128" width="840" height="14" rx="7" fill="#21262D"/>
+    <rect x="280" y="128" width="730" height="14" rx="7" fill="url(#bar1)"/>
+    <rect x="280" y="177" width="840" height="14" rx="7" fill="#21262D"/>
+    <rect x="280" y="177" width="675" height="14" rx="7" fill="url(#bar1)"/>
+    <rect x="280" y="226" width="840" height="14" rx="7" fill="#21262D"/>
+    <rect x="280" y="226" width="620" height="14" rx="7" fill="url(#bar1)"/>
+    <rect x="280" y="275" width="840" height="14" rx="7" fill="#21262D"/>
+    <rect x="280" y="275" width="555" height="14" rx="7" fill="url(#bar1)"/>
+  </g>
+</svg>
