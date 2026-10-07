@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="30" viewBox="0 0 760 30"><style>
+    .fg{fill:#24292f} .muted{fill:#656d76} .rule{stroke:#d0d7de}
+    .accent{fill:#A78BFA} .accent-stroke{stroke:#A78BFA}
+    .soft{fill:#f6f8fa} .panel{fill:#ffffff;stroke:#d0d7de}
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace}
+    @media (prefers-color-scheme: dark) {
+      .fg{fill:#f0f6fc} .muted{fill:#8b949e} .rule{stroke:#30363d}
+      .soft{fill:#161b22} .panel{fill:#0d1117;stroke:#30363d}
+    }
+    
+    </style><text x="0" y="20" class="fg" font-size="15" font-weight="700">building now</text><line x1="144" y1="14" x2="760" y2="14" class="rule" stroke-width="1"/></svg>

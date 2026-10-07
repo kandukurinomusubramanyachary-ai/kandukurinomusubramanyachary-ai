@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="256" viewBox="0 0 760 256"><style>
+    .fg{fill:#24292f} .muted{fill:#656d76} .rule{stroke:#d0d7de}
+    .accent{fill:#A78BFA} .accent-stroke{stroke:#A78BFA}
+    .soft{fill:#f6f8fa} .panel{fill:#ffffff;stroke:#d0d7de}
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace}
+    @media (prefers-color-scheme: dark) {
+      .fg{fill:#f0f6fc} .muted{fill:#8b949e} .rule{stroke:#30363d}
+      .soft{fill:#161b22} .panel{fill:#0d1117;stroke:#30363d}
+    }
+    
+    </style><text x="0" y="17" class="muted" font-size="10" font-weight="700" letter-spacing="1.2">RECENT PUBLIC WORK</text><text x="0" y="42" class="fg" font-size="13" font-weight="700">BLOOMv3</text><text x="750" y="42" class="muted" font-size="10" font-weight="600" text-anchor="end">javascript · sep 28</text><text x="0" y="62" class="muted" font-size="10" font-weight="400">working repository</text><line x1="0" y1="75" x2="760" y2="75" class="rule" stroke-width="1" opacity=".65"/><text x="0" y="96" class="fg" font-size="13" font-weight="700">EARTHPULSE</text><text x="750" y="96" class="muted" font-size="10" font-weight="600" text-anchor="end">python · sep 8</text><text x="0" y="116" class="muted" font-size="10" font-weight="400">working repository</text><line x1="0" y1="129" x2="760" y2="129" class="rule" stroke-width="1" opacity=".65"/><text x="0" y="150" class="fg" font-size="13" font-weight="700">wholebloom</text><text x="750" y="150" class="muted" font-size="10" font-weight="600" text-anchor="end">javascript · sep 6</text><text x="0" y="170" class="muted" font-size="10" font-weight="400">working repository</text><line x1="0" y1="183" x2="760" y2="183" class="rule" stroke-width="1" opacity=".65"/><text x="0" y="204" class="fg" font-size="13" font-weight="700">MEDLENSFINAL.</text><text x="750" y="204" class="muted" font-size="10" font-weight="600" text-anchor="end">typescript · sep 5</text><text x="0" y="224" class="muted" font-size="10" font-weight="400">working repository</text></svg>

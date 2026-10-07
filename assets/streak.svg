@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="108" viewBox="0 0 760 108"><style>
+    .fg{fill:#24292f} .muted{fill:#656d76} .rule{stroke:#d0d7de}
+    .accent{fill:#A78BFA} .accent-stroke{stroke:#A78BFA}
+    .soft{fill:#f6f8fa} .panel{fill:#ffffff;stroke:#d0d7de}
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace}
+    @media (prefers-color-scheme: dark) {
+      .fg{fill:#f0f6fc} .muted{fill:#8b949e} .rule{stroke:#30363d}
+      .soft{fill:#161b22} .panel{fill:#0d1117;stroke:#30363d}
+    }
+    
+    </style><line x1="380" y1="14" x2="380" y2="94" class="rule" stroke-width="1"/><text x="40" y="50" class="fg" font-size="28" font-weight="700">1 days</text><text x="40" y="72" class="muted" font-size="10" font-weight="700" letter-spacing=".8">current streak</text><text x="40" y="91" class="muted" font-size="10" font-weight="400">oct 7 → oct 7</text><text x="420" y="50" class="fg" font-size="28" font-weight="700">4 days</text><text x="420" y="72" class="muted" font-size="10" font-weight="700" letter-spacing=".8">longest streak</text><text x="420" y="91" class="muted" font-size="10" font-weight="400">sep 25 → sep 28</text></svg>
