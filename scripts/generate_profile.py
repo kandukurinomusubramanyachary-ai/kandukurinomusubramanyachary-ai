@@ -29,6 +29,18 @@ PROFILE = {
     "focus": "AI systems · product engineering · applied research",
 }
 
+# Hide old iterations/duplicates from the public narrative while keeping the
+# underlying repositories untouched.
+EXCLUDE_REPOS = {
+    "bloom3", "bloom.app", "BLOOM.", "wholebloom",
+    "MEDLENS.", "medlens-final", "MEDLENSFINAL.",
+}
+DESCRIPTIONS = {
+    "BLOOMv3": "AI-native wellbeing companion for cycle, symptoms and daily support",
+    "EARTHPULSE": "Satellite imagery → time-series change detection → evidence",
+    "Medlens": "Structured patient intake and report tooling",
+}
+
 QUERY = r"""
 query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
@@ -150,7 +162,10 @@ def normalize(user):
         else:
             run, run_start = 0, None
 
-    repos = user["repositories"]["nodes"] or []
+    repos = [
+        r for r in (user["repositories"]["nodes"] or [])
+        if r.get("name") not in EXCLUDE_REPOS
+    ]
     language_bytes = {}
     for repo in repos:
         for edge in (repo.get("languages") or {}).get("edges") or []:
@@ -253,7 +268,7 @@ def draw_activity(s):
     p.append(txt(0,17,"RECENT PUBLIC WORK",10,"muted",700,letter="1.2"))
     for i,repo in enumerate(repos[:4]):
         y=42+i*54; lang=((repo.get("primaryLanguage") or {}).get("name") or "—").lower(); pushed=short_date(repo.get("pushedAt"))
-        desc=(repo.get("description") or "working repository").strip().replace("\n"," ")
+        desc=(DESCRIPTIONS.get(repo["name"]) or repo.get("description") or "working repository").strip().replace("\n"," ")
         if len(desc)>68: desc=desc[:65].rstrip()+"..."
         p += [txt(0,y,repo["name"],13,"fg",700),txt(750,y,f"{lang} · {pushed}",10,"muted",600,"end"),txt(0,y+20,desc,10,"muted")]
         if i != min(3,len(repos)-1): p.append(f'<line x1="0" y1="{y+33}" x2="760" y2="{y+33}" class="rule" stroke-width="1" opacity=".65"/>')
