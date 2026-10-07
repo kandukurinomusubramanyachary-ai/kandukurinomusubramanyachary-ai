@@ -1,0 +1,45 @@
+name: refresh self-generating profile
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_profile.py"
+      - ".github/workflows/profile.yml"
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate profile graphics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/generate_profile.py
+
+      - name: Commit changed graphics
+        run: |
+          FILES="assets/identity.svg assets/stats.svg assets/streak.svg assets/langs.svg assets/year.svg assets/activity.svg assets/hd-*.svg"
+          if [ -z "$(git status --porcelain -- $FILES)" ]; then
+            echo "profile graphics already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $FILES
+          git commit -m "profile: refresh live telemetry"
+          git push
